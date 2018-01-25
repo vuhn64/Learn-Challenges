@@ -1,0 +1,7 @@
+function sum(array){
+  var total =0
+  array.forEach(function(element) {
+    total= element + total
+  })
+  return total
+}
